@@ -8,6 +8,8 @@ def Sum(numberOne,numberTwo) :
 
 #call a methods
 if __name__ == '__main__':
-    print('Sum : ', Sum(12,560))
+    if sum(234 ,123) > 340:
+        print('Sum : ', Sum(12,560))
+    print('Sum :', Sum(0,0))
     
     
