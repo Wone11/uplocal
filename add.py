@@ -7,7 +7,6 @@ def Sum(numberOne,numberTwo) :
 
 
 #call a methods
-
 if __name__ == '__main__':
     print('Sum : ', Sum(12,14))
     
