@@ -12,7 +12,8 @@ class User:
     def Display(self,id,website,description,email,gender,phone_number,username):
         print('User ID :' ,id,' \n User Description: ',description,'\n Website ',website,'\n User Email :', email, '\n Gender: ',gender,'\n Phone Number ',phone_number,'\n User Name:', username)
     
-
+    def Somethingelse(self):
+        print('New something else')
     
 # Call a method Here    
 if __name__ == '__main__':
