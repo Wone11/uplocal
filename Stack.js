@@ -1,8 +1,7 @@
 
-//Functions on Push, Pop, peek ,length --> Check words are pallandrome
-function Pallandrom() {
+//Functions on Push, Pop, peek ,length --> Check words are Palindrome
+function Palindrom(word) {
     var letters = []
-    var word = "racecar"
     var r_word = ""
 
     // Put all the letters of word in to stack
@@ -15,11 +14,17 @@ function Pallandrom() {
         r_word += letters.pop();
     }
 
-    //check pallandrome 
+    //check Palindrome 
     if (r_word === word) {
-        console.log(word + " : is a pallandrome ... ");
-    }else{console.log(word + ' : is not pallandrome ....');}
+        console.log(word + " : is a Palindrome ... ");
+    }else{console.log(word + ' : is not Palindrome ....');}
 }
 
-// Call the functions
-Pallandrom()
+// Call the functions -----------------
+Palindrom("biology")
+Palindrom("racecar")
+Palindrom("madam")
+Palindrom("radar")
+Palindrom("radar")
+Palindrom("level")
+Palindrom("civic")
