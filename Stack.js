@@ -18,8 +18,8 @@ function Pallandrom() {
     //check pallandrome 
     if (r_word === word) {
         console.log(word + " : is a pallandrome ... ");
-    }
+    }else{console.log(word + ' : is not pallandrome ....');}
 }
 
 // Call the functions
-// Pallandrom()
+Pallandrom()
