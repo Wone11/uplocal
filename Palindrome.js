@@ -16,8 +16,8 @@ function Palindrom(word) {
 
     //check Palindrome 
     if (r_word === word) {
-        console.log(word + " : is a Palindrome ... ");
-    }else{console.log(word + ' : is not Palindrome ....');}
+        console.log(word + "  " +      "is a Palindrome!");
+    }else{console.log(word + "  " +   'is not Palindrome!');}
 }
 
 // Call the functions -----------------

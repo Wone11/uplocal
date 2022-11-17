@@ -1,3 +1,6 @@
+'''
+Class that return the Details of the User!!
+'''
 class User:
     def __init__(self, id, name, website, description, email, gender, phone_number, username):
         self.id = id
