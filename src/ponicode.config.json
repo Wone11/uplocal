@@ -1,0 +1,9 @@
+{
+    "schemaVersion": "1",
+    "python": {
+        "name": "src",
+        "rootDir": "./",
+        "testLocationStrategy": "relativeToProjectRoot",
+        "testLocationFolder": "./ponicode"
+    }
+}

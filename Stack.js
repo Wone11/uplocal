@@ -8,6 +8,7 @@ var Stack  = function(){
     this.push = function(value){
         this.storage[this.count] = value;
         this.count ++;
+        return value
     }
 
     //remove element from the stack 
@@ -46,3 +47,5 @@ console.log(Test_Stack.peek())
 console.log(Test_Stack.size())
 console.log(Test_Stack.pop())
 console.log(Test_Stack.peek())
+
+module.exports = Stack
